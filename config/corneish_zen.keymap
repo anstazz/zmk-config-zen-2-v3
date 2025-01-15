@@ -80,8 +80,10 @@
 &kp ESCAPE          &kp N6           &kp N7           &kp N8         &kp N9    &kp N0           &trans  &trans  &trans  &trans            &trans  &trans
 &trans              &kp LC(Y)        &kp LC(A)        &kp PAGE_UP    &kp HOME  &kp BACKSPACE    &trans  &trans  &trans  &kp GREATER_THAN  &trans  &trans
 &kp LA(LC(DELETE))  &kp PAUSE_BREAK  &kp PRINTSCREEN  &kp PAGE_DOWN  &kp END   &kp LA(F4)       &trans  &trans  &trans  &kp LESS_THAN     &trans  &trans
-                                                      &trans         &trans    &trans           &trans  &trans  &to 4
+                                                      &kp ENTER      &trans    &trans           &trans  &trans  &to 4
             >;
+
+            label = "alt_num";
         };
 
         game {
