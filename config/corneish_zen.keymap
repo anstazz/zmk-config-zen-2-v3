@@ -98,10 +98,10 @@
         GAMING2 {
             display-name = "GAME";
             bindings = <
-&kp ESC          &kp LGUI  &kp N1  &kp N2  &kp N3  &none        &kp SPACE  &kp SPACE  &none  &none  &none  &none
-&kp LA(LC(DEL))  &none     &kp N4  &kp N5  &kp N6  &kp N0       &none      &none      &none  &none  &none  &none
-&none            &none     &kp N7  &kp N8  &kp N9  &kp ENTER    &none      &none      &none  &none  &none  &none
-                                   &none   &none   &none        &none      &none      &none
+&kp ESC          &kp LGUI            &kp N1  &kp N2  &kp N3  &none        &kp SPACE  &kp SPACE  &none  &none  &none  &none
+&kp LA(LC(DEL))  &kp LA(LEFT_SHIFT)  &kp N4  &kp N5  &kp N6  &kp N0       &none      &none      &none  &none  &none  &none
+&none            &none               &kp N7  &kp N8  &kp N9  &kp ENTER    &none      &none      &none  &none  &none  &none
+                                             &none   &none   &none        &none      &none      &none
             >;
         };
     };
