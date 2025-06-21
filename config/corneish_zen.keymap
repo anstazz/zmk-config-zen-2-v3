@@ -88,10 +88,20 @@
         GAMING {
             display-name = "GAME";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T     &kp Y  &kp U  &kp I         &kp O    &kp P     &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G     &kp H  &kp J  &kp K         &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B     &kp N  &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp BACKSLASH
-                                &kp LEFT_ALT  &kp SPACE  &tog 1    &to 0  &mo 3  &kp LEFT_GUI
+&kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T    &kp Y  &kp U  &kp I         &kp O    &kp P     &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F      &kp G    &kp H  &kp J  &kp K         &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V      &kp B    &kp N  &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp BACKSLASH
+                                &kp LEFT_ALT  &kp SPACE  &mo 5    &to 0  &mo 3  &kp LEFT_GUI
+            >;
+        };
+
+        GAMING2 {
+            display-name = "GAME";
+            bindings = <
+&kp ESC          &kp LGUI  &kp N1  &kp N2  &kp N3  &none        &kp SPACE  &kp SPACE  &none  &none  &none  &none
+&kp LA(LC(DEL))  &none     &kp N4  &kp N5  &kp N6  &kp N0       &none      &none      &none  &none  &none  &none
+&none            &none     &kp N7  &kp N8  &kp N9  &kp ENTER    &none      &none      &none  &none  &none  &none
+                                   &none   &none   &none        &none      &none      &none
             >;
         };
     };
