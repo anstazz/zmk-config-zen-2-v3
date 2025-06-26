@@ -33,7 +33,7 @@
             bindings = <&mo>, <&tog>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <170>;
             flavor = "tap-preferred";
         };
     };
