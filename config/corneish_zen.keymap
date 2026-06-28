@@ -118,10 +118,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                                &mkp MCLK       &mkp LCLK        &to 0             &trans  &trans  &trans
+&trans  &trans  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &msc SCRL_UP    &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans            &trans          &trans     &trans     &trans     &trans  &trans
+                                &mkp MCLK       &mkp LCLK        &to 0             &trans          &trans     &trans
             >;
         };
     };
