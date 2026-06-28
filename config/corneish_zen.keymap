@@ -123,6 +123,8 @@
 &none  &none  &none           &none           &none            &none             &none           &none      &none      &none      &none  &none
                               &mkp MCLK       &mkp LCLK        &to 0             &none           &none      &none
             >;
+
+            label = "mouse";
         };
     };
 };
